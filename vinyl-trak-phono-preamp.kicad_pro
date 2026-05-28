@@ -555,7 +555,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "vinyl-trak-gerber-v0.1/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
@@ -746,13 +746,21 @@
         "uuid": "4a649c0e-9635-4e81-843e-94b644d10c35"
       }
     ],
-    "used_designators": "J5,R37-38,C10",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
     [
       "4a649c0e-9635-4e81-843e-94b644d10c35",
       "vinyl-trak-phono-preamp"
+    ],
+    [
+      "dc39c00c-9437-47a4-a0c4-f2dcbd97ea6c",
+      "phono-in-left"
+    ],
+    [
+      "a929fe39-d423-4aa8-9ae9-494ff6c54db3",
+      "phono-in-right"
     ]
   ],
   "text_variables": {},

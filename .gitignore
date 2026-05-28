@@ -6,3 +6,6 @@
 .kicad_prl
 .history/
 .history_trim/
+
+**/gerber/**
+**/other/**

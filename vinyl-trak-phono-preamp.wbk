@@ -15,7 +15,7 @@
     {
       "analysis": "AC",
       "commands": [
-        ".ac dec 101 1 50k",
+        ".ac dec 101 100m 100k",
         ".kicad adjustpaths",
         ".save all",
         ".probe alli",
@@ -32,13 +32,13 @@
       "showGrid": true,
       "traces": [
         {
-          "color": "rgb(55, 126, 184)",
-          "signal": "V(/out) (phase)",
+          "color": "rgb(77, 175, 74)",
+          "signal": "V(/l-out) (phase)",
           "trace_type": 517
         },
         {
-          "color": "rgb(55, 126, 184)",
-          "signal": "V(/out) (gain)",
+          "color": "rgb(77, 175, 74)",
+          "signal": "V(/l-out) (gain)",
           "trace_type": 521
         }
       ]
