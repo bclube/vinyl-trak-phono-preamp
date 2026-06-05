@@ -237,7 +237,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": ""
+      "sch_revision": "${REV}"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -763,7 +763,9 @@
       "phono-in-right"
     ]
   ],
-  "text_variables": {},
+  "text_variables": {
+    "REV": "0.2"
+  },
   "tuning_profiles": {
     "meta": {
       "version": 0

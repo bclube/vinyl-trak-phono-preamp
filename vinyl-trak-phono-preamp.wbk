@@ -15,7 +15,7 @@
     {
       "analysis": "AC",
       "commands": [
-        ".ac dec 101 100m 100k",
+        ".ac dec 101 1 100k",
         ".kicad adjustpaths",
         ".save all",
         ".probe alli",
@@ -40,6 +40,32 @@
           "color": "rgb(77, 175, 74)",
           "signal": "V(/l-out) (gain)",
           "trace_type": 521
+        }
+      ]
+    },
+    {
+      "analysis": "DC",
+      "commands": [
+        ".dc V1 -50m 50m 10u",
+        ".kicad adjustpaths",
+        ".save all",
+        ".probe alli",
+        ".probe allp"
+      ],
+      "dottedSecondary": true,
+      "margins": {
+        "bottom": 45,
+        "left": 70,
+        "right": 70,
+        "top": 30
+      },
+      "measurements": [],
+      "showGrid": true,
+      "traces": [
+        {
+          "color": "rgb(228, 26, 28)",
+          "signal": "V(/l-out)",
+          "trace_type": 2049
         }
       ]
     }

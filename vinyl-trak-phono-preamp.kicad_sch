@@ -4,6 +4,13 @@
 	(generator_version "10.0")
 	(uuid "4a649c0e-9635-4e81-843e-94b644d10c35")
 	(paper "A4")
+	(title_block
+		(title "VinylTrak MM Phono Input Stage")
+		(date "2026-06-05")
+		(rev "${REV}")
+		(comment 1 "Designed by Bob Cordell")
+		(comment 2 "Created by Brian Lubeski")
+	)
 	(lib_symbols
 		(symbol "Connector:Screw_Terminal_01x02"
 			(pin_names
@@ -1669,16 +1676,6 @@
 		(uuid "22dff722-fc9b-4e5b-9c93-9d7dc88d163e")
 	)
 	(label "r-in-"
-		(at 104.14 91.44 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2c45e250-1e9a-43e4-a514-bc38929cbaf1")
-	)
-	(label "r-in-"
 		(at 73.66 71.12 0)
 		(effects
 			(font
@@ -1687,26 +1684,6 @@
 			(justify left bottom)
 		)
 		(uuid "2ff8b79e-3f2a-4690-8ecf-424179459bfe")
-	)
-	(label "l-out"
-		(at 179.07 39.37 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3ee5f8c4-6bde-481c-a45f-4512f2acf352")
-	)
-	(label "r-in+"
-		(at 104.14 93.98 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4134cd69-fed3-4d26-9816-346a014cf58b")
 	)
 	(label "r-in+"
 		(at 122.555 66.675 180)
@@ -1768,16 +1745,6 @@
 		)
 		(uuid "9731dc3f-de9e-4a2a-9c66-867c57469667")
 	)
-	(label "l-in-"
-		(at 101.6 55.88 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b4334ec8-278c-4014-8da3-ca9f0fb0ce73")
-	)
 	(label "l-in+"
 		(at 123.19 33.02 180)
 		(effects
@@ -1808,16 +1775,6 @@
 		)
 		(uuid "ce13bcd2-e896-458f-8916-837f492f9078")
 	)
-	(label "r-out"
-		(at 179.07 73.66 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "cee219d9-3da5-4a6c-954f-082b72391ddc")
-	)
 	(label "l-in-"
 		(at 60.96 40.64 0)
 		(effects
@@ -1837,97 +1794,6 @@
 			(justify right bottom)
 		)
 		(uuid "dd5be589-5908-40ef-9613-92902d0835fd")
-	)
-	(label "l-in+"
-		(at 101.6 58.42 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e3ec3f3b-b0a4-46a2-a29b-700a75e9464d")
-	)
-	(symbol
-		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 173.99 71.12 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim yes)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "042e5d61-eabd-41b8-b1e6-31b9cc88a64a")
-		(property "Reference" "J7"
-			(at 173.99 64.77 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Screw_Terminal_01x02"
-			(at 173.99 67.31 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Library:TerminalBlock_4Ucon_1x02_P5mm_Horizontal"
-			(at 173.99 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 173.99 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 173.99 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "bbd52ebc-6926-4dd2-89bc-88e86e8934d8")
-		)
-		(pin "1"
-			(uuid "95f6c655-5af4-4ea9-95ba-1e43427df5b1")
-		)
-		(instances
-			(project "vinyl-trak-phono-preamp"
-				(path "/4a649c0e-9635-4e81-843e-94b644d10c35"
-					(reference "J7")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "power:GNDS")
@@ -2029,7 +1895,7 @@
 				)
 			)
 		)
-		(property "Value" "+15V"
+		(property "Value" "15+"
 			(at 102.87 119.3799 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2196,87 +2062,6 @@
 			(project "vinyl-trak-phono-preamp"
 				(path "/4a649c0e-9635-4e81-843e-94b644d10c35"
 					(reference "V5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 99.06 91.44 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim yes)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "18eb8e4b-24e7-49ca-95c2-0538eb3a6cc6")
-		(property "Reference" "J12"
-			(at 99.06 85.09 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Screw_Terminal_01x02"
-			(at 99.06 87.63 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Library:TerminalBlock_4Ucon_1x02_P5mm_Horizontal"
-			(at 99.06 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 99.06 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 99.06 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "9b6bc427-437b-4df4-8efe-5e56290ae057")
-		)
-		(pin "1"
-			(uuid "52aae8e8-ec48-4176-87d0-7b101551e728")
-		)
-		(instances
-			(project "vinyl-trak-phono-preamp"
-				(path "/4a649c0e-9635-4e81-843e-94b644d10c35"
-					(reference "J12")
 					(unit 1)
 				)
 			)
@@ -2462,7 +2247,7 @@
 				)
 			)
 		)
-		(property "Value" "-15"
+		(property "Value" "15-"
 			(at 102.87 116.8399 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2679,83 +2464,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDS")
-		(at 179.07 71.12 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "32448754-7ede-48e0-ace8-4092bf357fe6")
-		(property "Reference" "#GNDS04"
-			(at 183.134 71.12 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0"
-			(at 184.15 71.12 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 179.07 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 179.07 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDS\" , signal ground"
-			(at 179.07 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6cd3df51-6064-4ffe-9c51-a2bce53ca0e1")
-		)
-		(instances
-			(project "vinyl-trak-phono-preamp"
-				(path "/4a649c0e-9635-4e81-843e-94b644d10c35"
-					(reference "#GNDS04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 74.93 102.87 270)
 		(unit 1)
@@ -2954,164 +2662,6 @@
 			(project "vinyl-trak-phono-preamp"
 				(path "/4a649c0e-9635-4e81-843e-94b644d10c35"
 					(reference "V2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDS")
-		(at 179.07 36.83 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "4fdcf4d4-2883-4071-a689-f10292b2642f")
-		(property "Reference" "#GNDS03"
-			(at 183.134 36.83 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0"
-			(at 184.15 36.83 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 179.07 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 179.07 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDS\" , signal ground"
-			(at 179.07 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c1138a2c-3b2f-4c35-ac5c-0f5391fc8915")
-		)
-		(instances
-			(project "vinyl-trak-phono-preamp"
-				(path "/4a649c0e-9635-4e81-843e-94b644d10c35"
-					(reference "#GNDS03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 173.99 36.83 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim yes)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "528745c6-60f4-4b1b-bd80-483e6d856af1")
-		(property "Reference" "J4"
-			(at 173.99 30.48 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Screw_Terminal_01x02"
-			(at 173.99 33.02 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Library:TerminalBlock_4Ucon_1x02_P5mm_Horizontal"
-			(at 173.99 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 173.99 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 173.99 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "c9903142-9953-438d-8acf-58e320d4927e")
-		)
-		(pin "1"
-			(uuid "3402911e-dd39-4ab2-a3dd-4d482d3ad3d6")
-		)
-		(instances
-			(project "vinyl-trak-phono-preamp"
-				(path "/4a649c0e-9635-4e81-843e-94b644d10c35"
-					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -3520,87 +3070,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 96.52 55.88 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim yes)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a1ccd9bb-b53e-4027-95a8-186ad606a962")
-		(property "Reference" "J13"
-			(at 96.52 49.53 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Screw_Terminal_01x02"
-			(at 96.52 52.07 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Library:TerminalBlock_4Ucon_1x02_P5mm_Horizontal"
-			(at 96.52 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 96.52 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 96.52 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "5eca2003-bb3a-4096-98c6-30314c7a8613")
-		)
-		(pin "1"
-			(uuid "07531b6d-6273-4a3c-be0a-03045e4867a7")
-		)
-		(instances
-			(project "vinyl-trak-phono-preamp"
-				(path "/4a649c0e-9635-4e81-843e-94b644d10c35"
-					(reference "J13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Simulation_SPICE:VDC")
 		(at 26.67 35.56 0)
 		(unit 1)
@@ -3825,14 +3294,15 @@
 				)
 			)
 		)
-		(property "Value" "-15"
-			(at 74.93 128.27 0)
+		(property "Value" "15-"
+			(at 77.47 124.4599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -3985,7 +3455,7 @@
 				)
 			)
 		)
-		(property "Value" "+15V"
+		(property "Value" "15+"
 			(at 74.93 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
