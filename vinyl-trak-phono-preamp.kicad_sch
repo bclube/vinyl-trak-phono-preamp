@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "VinylTrak MM Phono Input Stage")
-		(date "2026-06-05")
+		(date "2026-06-17")
 		(rev "${REV}")
 		(comment 1 "Designed by Bob Cordell")
 		(comment 2 "Created by Brian Lubeski")

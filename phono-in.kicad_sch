@@ -2671,10 +2671,10 @@
 		(uuid "554c577b-7114-4cee-83c6-b6c35263b18c")
 	)
 	(junction
-		(at 223.52 123.19)
+		(at 223.52 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "56855ba1-7030-4dd4-a349-7077187fda9f")
+		(uuid "5f6a767e-43f0-46ed-a9e5-f03d585eb31a")
 	)
 	(junction
 		(at 57.15 176.53)
@@ -2815,12 +2815,6 @@
 		(uuid "c43dec81-880d-4469-9169-a0bd0c65bea9")
 	)
 	(junction
-		(at 223.52 120.65)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c725890b-e79c-479b-9657-458522521986")
-	)
-	(junction
 		(at 254 143.51)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2861,6 +2855,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e8e019e9-6173-4b8e-8aae-32c6340bea53")
+	)
+	(junction
+		(at 223.52 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f16cb0cd-b535-401e-9336-189a443c1448")
 	)
 	(junction
 		(at 252.73 152.4)
@@ -3084,7 +3084,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 120.65) (xy 223.52 123.19)
+			(xy 223.52 118.11) (xy 223.52 120.65)
 		)
 		(stroke
 			(width 0)
@@ -3141,6 +3141,16 @@
 			(type default)
 		)
 		(uuid "28d7d3ac-e066-491b-8a64-0e7d74a4df36")
+	)
+	(wire
+		(pts
+			(xy 223.52 118.11) (xy 234.95 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b107763-2a47-4a01-898a-70f7f810826b")
 	)
 	(wire
 		(pts
@@ -3524,7 +3534,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 118.11) (xy 234.95 118.11)
+			(xy 222.25 118.11) (xy 223.52 118.11)
 		)
 		(stroke
 			(width 0)
@@ -3814,16 +3824,6 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 123.19) (xy 229.87 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b603a230-1c8e-4a68-8d2f-5e3adedad7c1")
-	)
-	(wire
-		(pts
 			(xy 254 143.51) (xy 260.35 143.51)
 		)
 		(stroke
@@ -3924,7 +3924,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 123.19) (xy 223.52 123.19)
+			(xy 222.25 123.19) (xy 229.87 123.19)
 		)
 		(stroke
 			(width 0)
@@ -12056,8 +12056,7 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:OPA2134")
-		(at 241.3 156.21 0)
-		(mirror y)
+		(at 241.3 156.21 180)
 		(unit 2)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12067,7 +12066,7 @@
 		(dnp no)
 		(uuid "d63b2ec9-8ca5-4857-9ac8-afdf9e9cb428")
 		(property "Reference" "U1"
-			(at 239.268 148.59 0)
+			(at 239.268 163.83 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12077,7 +12076,7 @@
 			)
 		)
 		(property "Value" "OPA2134"
-			(at 239.268 151.13 0)
+			(at 239.268 161.29 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
